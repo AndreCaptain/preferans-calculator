@@ -1,0 +1,48 @@
+/* Основные стили */
+body {
+    background-color: #f5f5f5;
+}
+
+/* Стили для карточек */
+.card {
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    color: #1976d2;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* Стили для кнопки расчета */
+#calculate {
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* Стили для полей ввода */
+.input-field {
+    margin-top: 10px;
+}
+
+/* Стили для результатов */
+#results {
+    margin-top: 20px;
+}
+
+.result-item {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #e3f2fd;
+    border-radius: 4px;
+}
+
+/* Адаптивные стили */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 0 10px;
+    }
+} 
